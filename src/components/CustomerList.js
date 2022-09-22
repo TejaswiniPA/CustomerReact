@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useState, useEffect } from 'react';
 
-const url = 'http://localhost:8001/api/customers';
+const url = 'http://127.0.0.1:8001/api/customers';
 // const url = 'http://localhost:3000/shipper-list.json';
 
 const CustomerList = () => {
